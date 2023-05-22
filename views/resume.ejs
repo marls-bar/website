@@ -1,0 +1,22 @@
+<!-- resume.ejs -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Resume</title>
+  <link rel="stylesheet" type="text/css" href="/css/styles.css">
+</head>
+<body>
+  <header>
+    <h1><%= resumeData.name %></h1>
+    <p><%= resumeData.title %></p>
+    <p>Contact Information: <%= resumeData.contactInformation.email %> | <%= resumeData.contactInformation.phone %></p>
+  </header>
+
+  <section>
+    <h2>Summary</h2>
+    <p><%= resumeData.summary %></p>
+  </section>
+
+  <!-- Add more sections and data as needed -->
+</body>
+</html>

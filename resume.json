@@ -1,0 +1,48 @@
+{
+    "name": "Your Name",
+    "title": "Job Title",
+    "contactInformation": {
+      "email": "email@example.com",
+      "phone": "123-456-7890"
+    },
+    "summary": "A brief summary highlighting your key skills and experience.",
+    "education": [
+      {
+        "university": "University Name",
+        "degree": "Bachelor of Science",
+        "major": "Computer Science",
+        "duration": "2015 - 2019"
+      }
+    ],
+    "workExperience": [
+      {
+        "company": "Company Name",
+        "jobTitle": "Job Title",
+        "duration": "January 2020 - Present",
+        "responsibilities": [
+          "Responsibility 1",
+          "Responsibility 2",
+          "Responsibility 3"
+        ]
+      }
+    ],
+    "skills": [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "Node.js",
+      "Express.js",
+      "SQL"
+    ],
+    "projects": [
+      {
+        "name": "Project 1",
+        "description": "Description of the project."
+      },
+      {
+        "name": "Project 2",
+        "description": "Description of the project."
+      }
+    ]
+}
+  

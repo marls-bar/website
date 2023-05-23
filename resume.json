@@ -1,24 +1,24 @@
 {
-    "name": "Your Name",
-    "title": "Job Title",
+    "name": "Aidan Marley",
+    "title": "SOC Analyst",
     "contactInformation": {
-      "email": "email@example.com",
-      "phone": "123-456-7890"
+      "email": "a.d.marley@outlook.com",
+      "phone": "0404228942"
     },
-    "summary": "A brief summary highlighting your key skills and experience.",
+    "summary": "I keep computer systems and networks safe from hackers and other threats.",
     "education": [
       {
-        "university": "University Name",
-        "degree": "Bachelor of Science",
+        "university": "UNSW",
+        "degree": "Bachelor of Computer Science",
         "major": "Computer Science",
-        "duration": "2015 - 2019"
+        "duration": "2020 - 2024"
       }
     ],
     "workExperience": [
       {
-        "company": "Company Name",
-        "jobTitle": "Job Title",
-        "duration": "January 2020 - Present",
+        "company": "Macquarie Technology Group",
+        "jobTitle": "SOC Analyst",
+        "duration": "February 2023 - Present",
         "responsibilities": [
           "Responsibility 1",
           "Responsibility 2",

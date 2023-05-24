@@ -2,59 +2,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Resume</title>
   <link rel="stylesheet" type="text/css" href="/css/styles.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-  <header>
-    <div class="social-links">
-      <a href="https://www.linkedin.com/in/aidanmarley/" target="_blank" class="social-link">
-        <i class="fab fa-linkedin"></i>
-      </a>
-      <a href="https://github.com/marls-bar" target="_blank" class="social-link">
-        <i class="fab fa-github"></i>
-      </a>
+
+  <div class="container">
+    <div class="introduction">
+      <h4 id="greeting" class="one">Hi, my name is</h3>
+      <h2 id="name" class="two"><%= resumeData.name %>.</h2>
+      <p class="three"><%= resumeData.summary %></p>
+      <div class="social-icons">
+        <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin fade-in-one"></i></a>
+        <a href="https://github.com" target="_blank"><i class="fab fa-github fade-in-two"></i></a>
+        <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram fade-in-three"></i></a>
+      </div>
     </div>
-    <h1><%= resumeData.name %></h1>
-    <p><%= resumeData.title %></p>
-    <p>Contact Information: <%= resumeData.contactInformation.email %> | <%= resumeData.contactInformation.phone %></p>
-  </header>
-
-  <div class="summary">
-    <h3>Hi, my name is</h3>
-    <h2><%= resumeData.name %></h2>
-    <p><%= resumeData.summary %></p>
   </div>
-
-  <section class="education">
-    <h2>Education</h2>
-    <% if (resumeData.education && resumeData.education.length > 0) { %>
-      <% resumeData.education.forEach(function(education) { %>
-        <h3><%= education.degree %></h3>
-        <p><%= education.university %></p>
-        <p><%= education.duration %></p>
-        <p>Major: <%= education.major %></p>
-      <% }); %>
-    <% } else { %>
-      <p>No education information available.</p>
-    <% } %>
-  </section>
-
-  <section class="work-experience">
-    <h2>Work Experience</h2>
-    <% if (resumeData.workExperience && resumeData.workExperience.length > 0) { %>
-      <% resumeData.workExperience.forEach(function(experience) { %>
-        <h3><%= experience.jobTitle %></h3>
-        <p><%= experience.company %></p>
-        <p><%= experience.duration %></p>
-        <% }); %>
-    <% } else { %>
-      <p>No work experience information available.</p>
-    <% } %>
-  </section>
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
 
 </body>
 </html>

@@ -82,7 +82,7 @@ margin-top: 20px;
 display: inline-block;
 margin-right: 10px;
 margin-left: 3px;
-color: #000;
+color: #000000;
 font-size: 24px;
 transition: color 0.3s;
 }
@@ -100,4 +100,20 @@ height: 100vh;
 
 .introduction {
 text-align: left;
+}
+
+.scroll-indicator {
+position: fixed;
+bottom: 10px;
+left: 50%;
+transform: translateX(-50%);
+font-size: 40px; /* Increase the font size for a bigger icon */
+}
+
+.fade-in-scroll-indicator {
+opacity: 0;  
+animation-name: fadeIn;
+animation-duration: 0.5s;
+animation-fill-mode: forwards;
+animation-delay: 4s;
 }

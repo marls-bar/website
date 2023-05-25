@@ -117,3 +117,18 @@ animation-duration: 0.5s;
 animation-fill-mode: forwards;
 animation-delay: 4s;
 }
+
+.about {
+max-width: 600px;
+text-align: left;
+}
+
+.photo-container {
+display: flex;
+justify-content: flex-end;
+}
+
+.photo-container img {
+max-width: 300px;
+height: auto;
+}

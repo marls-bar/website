@@ -100,6 +100,7 @@ height: 100vh;
 
 .introduction {
 text-align: left;
+margin-left: 450px;
 }
 
 .scroll-indicator {
@@ -153,4 +154,70 @@ height: auto;
 border: 4px solid #555; /* Add a border and adjust its properties */
 border-radius: 7px; /* Add border radius for a rounded frame */
 padding: 4px; /* Add padding to create some space between the image and the border */
+}
+
+.work-experience {
+display: flex;
+align-items: flex-start; /* Change alignment to flex-start */
+justify-content: center;
+flex-wrap: wrap;
+width: 60%;
+margin: 0 auto;
+margin-top: 10px;
+padding-top: 0;
+}
+
+.section-heading {
+margin-top: 10px;
+margin-bottom: 0px;
+text-align: left;
+width: 100%;
+margin-left: 300px;
+}
+
+.content {
+display: none;
+margin-left: 20px;
+width: 100%;
+}
+
+.company-content {
+flex: 1; /* Allow the company content to expand and fill the remaining space */
+}
+
+.tabs {
+display: flex;
+flex-direction: column; /* Set the flex direction to column */
+margin-right: 20px; /* Add some spacing between the tabs and company content */
+}
+
+
+.content {
+width: 100%; /* Set a fixed width for the content */
+display: none;
+margin-left: 20px; /* Add space between tabs and content */
+}
+
+.content.active {
+display: block;
+}
+
+.tab {
+background-color: #eee; /* Set a background color for the tabs */
+padding: 10px 15px; /* Adjust the padding as needed */
+margin-bottom: 5px; /* Adjust the spacing between tabs as needed */
+cursor: pointer;
+transition: background-color 0.3s; /* Add a transition effect for smooth color change */
+}
+
+.tab.active {
+background-color: #ccc; /* Set a different background color for the active tab */
+}
+
+.container {
+display: flex;
+flex-direction: column;
+align-items: flex-start; /* Change alignment to flex-start */
+justify-content: center;
+height: 100vh;
 }

@@ -3,4 +3,6 @@
 25/5/23: Add V-shaped scroll identifier DONE.
 25/5/23: Make scroll identifier move to next section DONE.
 26/5/23: Finalise about content DONE.
-26/5/23: Experience section
+26/5/23: Experience section DONE.
+27/5/23: Contact section DONE.
+27/5/23: Make sections closer and vanish/appear

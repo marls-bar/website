@@ -15,13 +15,40 @@
         targetSection.scrollIntoView({ behavior: 'smooth' });
       });
     });
+
+    document.addEventListener('DOMContentLoaded', function() {
+    const sections = document.querySelectorAll('.section');
+
+    const observerOptions = {
+      root: null,
+      rootMargin: '0px',
+      threshold: [0, 0.75]
+    };
+
+    const observer = new IntersectionObserver((entries, observer) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting && entry.intersectionRatio >= 0.75) {
+          entry.target.style.transition = 'opacity 0.5s';
+          entry.target.style.opacity = 1;
+        } else {
+          entry.target.style.transition = 'opacity 0.5s';
+          entry.target.style.opacity = 0;
+        }
+      });
+    }, observerOptions);
+
+    sections.forEach(section => {
+      observer.observe(section);
+      section.style.opacity = 0;
+    });
+  });
   </script>
 </head>
 <body>
 
   <div class="container">
     <div class="introduction">
-      <h4 id="greeting" class="one">Hi, my name is</h3>
+      <h3 id="greeting" class="one">Hi, my name is</h3>
       <h2 id="name" class="two"><%= resumeData.name %>.</h2>
       <p class="three"><%= resumeData.summary %></p>
       <div class="social-icons">
@@ -37,7 +64,7 @@
   </div>
 
   <div class="container">
-    <div class="about" id="about">
+    <div class="about section" id="about">
       <h2>About Me</h2>
       <div class="about-content">
         <p>
@@ -104,6 +131,13 @@
         </div>
       </div>
     </div>
+
+  </div>
+
+  <div class="contact-section">
+    <h2>Contact Me</h2>
+    <p>If you have any inquiries or would like to get in touch, feel free to send me an email.</p>
+    <a href="mailto:a.d.marley@outlook.com" class="contact-button">Contact Me</a>
   </div>
 
   <script>

@@ -7,8 +7,9 @@
 27/5/23: Contact section DONE.
 27/5/23: Make sections closer and vanish/appear
 29/5/23: Delete it all DONE.
-29/5/23: Make container for introduction DONE:
-29/5/23: Make containers for rest DONE;
-29/5/23: Make containers fade in DONE;
+29/5/23: Make container for introduction DONE.
+29/5/23: Make containers for rest DONE.
+29/5/23: Make containers fade in DONE.
 30/5/23: Finalise intro DONE.
-2/6/23:  Finalise tabs at top right of container DONE;
+2/6/23:  Finalise tabs at top right of container DONE.
+2/6/23:  Format Experience section perfectly DONE.

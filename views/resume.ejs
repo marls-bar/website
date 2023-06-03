@@ -49,7 +49,7 @@
       margin-top: 0px;
     }
     .container h3 {
-      margin-right: 100px;
+      margin-right: 25%;
     }
     footer {
       padding: 20px;
@@ -74,8 +74,8 @@
     }
     .tabs-container {
       position: absolute;
-      top: 20px;
-      right: 20px;
+      top: -50px;
+      right: 0px;
       display: flex;
       flex-direction: column;
       align-items: flex-end;
@@ -109,6 +109,12 @@
     }
     .tab.hidden {
       opacity: 0;
+    }
+    .experience-item.final {
+      margin-bottom: 500px;
+    }
+    .tab-wrapper {
+      margin-top: -50px;
     }
   </style>
   <script>
@@ -173,14 +179,60 @@
           <a href="https://www.instagram.com/_aymarls/" target="_blank"><i class="fab fa-instagram fade-in-three"></i></a>
         </div>
       </div>
-      <div class="content" id="experience">
-        <h2>Experience</h2>
+      <div class="content" id="experience">        
+          <div class="tab-wrapper">
+            <h2>Experience</h2>
+            <div class="experience-item">
+              <h3>Network Engineer @ Macquarie Telecom</h3>
+              <p class="employment-duration">Feb 2023 - Present</p>
+              <ul>
+                <li>Managed and troubleshooted routers, switches and firewalls.</li>
+                <li>Monitored network alarms and promptly responded to resolve issues and ensure uninterrupted network connectivity.</li>
+                <li>Implemented and maintained network security protocols, ensuring systems are up-to-date and protected against potential threats.</li>
+                <li>Collaborated with cross-functional teams to design and implement network infrastructure improvements and upgrades.</li>
+                <li>Provided customer support by taking calls, troubleshooting network-related issues, and resolving customer inquiries.</li>
+              </ul>
+            </div>
+            <div class="experience-item">
+              <h3>Squad Swim Coach @ Clublinks pty ltd</h3>
+              <p class="employment-duration">Feb 2021 - Oct 2022</p>
+              <ul>
+                <li>Develop and implement effective training programs to enhance swimmers' performance and achieve optimal results.</li>
+                <li>Employ communication and collaboration tools to facilitate seamless coordination with swimmers, parents, and coaching staff.</li>
+                <li>Monitor and evaluate individual and team performance, identifying areas for improvement and implementing strategies accordingly.</li>
+              </ul>
+            </div>
+            <div class="experience-item final">
+              <h3>English Teacher @ Xavier Learning Community</h3>
+              <p class="employment-duration">Feb 2019 - Jan 2020</p>
+              <ul>
+                <li>Design and deliver tailored English language curriculum to students from communities in the northern Thailand hill tribes.</li>
+                <li>Adapted teaching strategies and materials to accommodate different learning styles and abilities, promoting inclusive education and equal access to knowledge.</li>
+                <li>Encouraged critical thinking, creativity, and problem-solving skills through project-based learning activities and integration of technology tools.</li>
+              </ul>
+            </div>
+          </div>
       </div>
       <div class="content" id="projects">
-        <h2>Projects</h2>
+        <div class="tab-wrapper">
+          <h2>Projects</h2>
+        </div>
       </div>
       <div class="content" id="skills">
-        <h2>Skills</h2>
+        <div class="tab-wrapper">
+          <h2>Skills</h2>
+          <h3>Main Languages</h3>
+          <ul>
+            <li>C#</li>
+            <li>Java</li>
+            <li>Solidity</li>
+          </ul>
+          <h3>Tools</h3>
+          <ul>
+            <li>Azure</li>
+            <li>Splunk</li>
+          </ul>
+        </div>
       </div>
       <div class="tabs-container">
         <div class="tabs">
@@ -191,6 +243,7 @@
         </div>
       </div>
     </div>
+
   </div>
 </body>
 </html>

@@ -13,3 +13,6 @@
 30/5/23: Finalise intro DONE.
 2/6/23:  Finalise tabs at top right of container DONE.
 2/6/23:  Format Experience section perfectly DONE.
+15/6/23: Design resume in Figma DONE.
+15/6/23: Get all content on the page DONE.
+15/5/23: Give up for today DONE.
